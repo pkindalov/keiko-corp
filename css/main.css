@@ -196,14 +196,66 @@ header .social li:first-child{
 
 /*		Hero section 		*/
 
-.hero{
-	display: block;
-	position: relative;
-	width: 100%;
-	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
-	background-size: cover;
-}
+@media only screen and (min-width:1025px) {
+	.hero{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background: url('../img/hero1025px.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+
+} 
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+	.hero{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background: url('../img/hero769px.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+} 
+
+
+@media only screen and (min-width:581px) and (max-width:768px) {
+	.hero{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background: url('../img/hero581px.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+} 
+
+
+@media only screen and (min-width:321px) and (max-width:580px) {
+	.hero{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background: url('../img/hero321px.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+} 
+
+
+@media only screen and (max-width:320px) {
+	.hero{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background: url('../img/hero320px.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+} 
+
+
 
 .hero .caption{
 	position: absolute;
